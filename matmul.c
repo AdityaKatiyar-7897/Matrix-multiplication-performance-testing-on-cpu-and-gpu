@@ -1,4 +1,4 @@
-// here we multiplying big matrix but using all the cores of our cpu
+// here we multiplying big matrix but using all the cores of our cpu and using -march=native flag using compilation to unlock the AVX2 instructions
 
 #include <stdio.h>
 #include <stdlib.h>
