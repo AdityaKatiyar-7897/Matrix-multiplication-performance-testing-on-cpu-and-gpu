@@ -1,10 +1,10 @@
-// here we multiply two small matrices on you cpu 
+// here we multiply two small matrices on you cpu but we change out n from 256 to 1024
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-#define N 256
+#define N 1024
 
 float A[N][N];
 float B[N][N];
