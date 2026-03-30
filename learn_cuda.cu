@@ -9,7 +9,12 @@ __global__ void who_am_i(){
 }
 
 int main(){
-	who_am_i<<<1, 33>>>();// to define blocks and threads
+//	who_am_i<<<1, 33>>>();// to define blocks and threads
+	who_am_i<<<1, 43>>>();
+//	who_am_i<<<1, 33>>>();
+//	who_am_i<<<1, 33>>>();
+//	who_am_i<<<1, 33>>>();
+//	who_am_i<<<1, 33>>>();
 	cudaDeviceSynchronize();
 	return 0;
 }
@@ -18,6 +23,16 @@ int main(){
 
 /*
 block 0, thread 32, global id = 32
+block 0, thread 33, global id = 33
+block 0, thread 34, global id = 34
+block 0, thread 35, global id = 35
+block 0, thread 36, global id = 36
+block 0, thread 37, global id = 37
+block 0, thread 38, global id = 38
+block 0, thread 39, global id = 39
+block 0, thread 40, global id = 40
+block 0, thread 41, global id = 41
+block 0, thread 42, global id = 42
 block 0, thread 0, global id = 0
 block 0, thread 1, global id = 1
 block 0, thread 2, global id = 2
