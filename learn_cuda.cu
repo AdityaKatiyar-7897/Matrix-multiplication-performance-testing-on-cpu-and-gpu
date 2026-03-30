@@ -9,7 +9,7 @@ __global__ void who_am_i(){
 }
 
 int main(){
-	who_am_i<<<1, 16>>>();// to define blocks and threads
+	who_am_i<<<1, 32>>>();// to define blocks and threads
 	cudaDeviceSynchronize();
 	return 0;
 }
