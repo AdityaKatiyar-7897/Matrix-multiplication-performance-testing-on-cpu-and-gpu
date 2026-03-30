@@ -10,8 +10,8 @@ __global__ void who_am_i(){
 
 int main(){
 //	who_am_i<<<1, 33>>>();// to define blocks and threads
-	who_am_i<<<1, 43>>>();
-//	who_am_i<<<1, 33>>>();
+//	who_am_i<<<1, 43>>>();
+	who_am_i<<<1, 68>>>();
 //	who_am_i<<<1, 33>>>();
 //	who_am_i<<<1, 33>>>();
 //	who_am_i<<<1, 33>>>();
@@ -22,17 +22,10 @@ int main(){
 //output
 
 /*
-block 0, thread 32, global id = 32
-block 0, thread 33, global id = 33
-block 0, thread 34, global id = 34
-block 0, thread 35, global id = 35
-block 0, thread 36, global id = 36
-block 0, thread 37, global id = 37
-block 0, thread 38, global id = 38
-block 0, thread 39, global id = 39
-block 0, thread 40, global id = 40
-block 0, thread 41, global id = 41
-block 0, thread 42, global id = 42
+block 0, thread 64, global id = 64
+block 0, thread 65, global id = 65
+block 0, thread 66, global id = 66
+block 0, thread 67, global id = 67
 block 0, thread 0, global id = 0
 block 0, thread 1, global id = 1
 block 0, thread 2, global id = 2
@@ -65,4 +58,36 @@ block 0, thread 28, global id = 28
 block 0, thread 29, global id = 29
 block 0, thread 30, global id = 30
 block 0, thread 31, global id = 31
+block 0, thread 32, global id = 32
+block 0, thread 33, global id = 33
+block 0, thread 34, global id = 34
+block 0, thread 35, global id = 35
+block 0, thread 36, global id = 36
+block 0, thread 37, global id = 37
+block 0, thread 38, global id = 38
+block 0, thread 39, global id = 39
+block 0, thread 40, global id = 40
+block 0, thread 41, global id = 41
+block 0, thread 42, global id = 42
+block 0, thread 43, global id = 43
+block 0, thread 44, global id = 44
+block 0, thread 45, global id = 45
+block 0, thread 46, global id = 46
+block 0, thread 47, global id = 47
+block 0, thread 48, global id = 48
+block 0, thread 49, global id = 49
+block 0, thread 50, global id = 50
+block 0, thread 51, global id = 51
+block 0, thread 52, global id = 52
+block 0, thread 53, global id = 53
+block 0, thread 54, global id = 54
+block 0, thread 55, global id = 55
+block 0, thread 56, global id = 56
+block 0, thread 57, global id = 57
+block 0, thread 58, global id = 58
+block 0, thread 59, global id = 59
+block 0, thread 60, global id = 60
+block 0, thread 61, global id = 61
+block 0, thread 62, global id = 62
+block 0, thread 63, global id = 63
 */
