@@ -33,13 +33,13 @@ int main(){
 /* 
 output:->
 
-thread 0 reads 10 from shared memory
-thread 1 reads 20 from shared memory
-thread 2 reads 30 from shared memory
-thread 3 reads 40 from shared memory
-thread 4 reads 50 from shared memory
-thread 5 reads 60 from shared memory
-thread 6 reads 70 from shared memory
-thread 7 reads 80 from shared memory
+thread 0 reads 80 from shared memory
+thread 1 reads 70 from shared memory
+thread 2 reads 60 from shared memory
+thread 3 reads 50 from shared memory
+thread 4 reads 40 from shared memory
+thread 5 reads 30 from shared memory
+thread 6 reads 20 from shared memory
+thread 7 reads 10 from shared memory
 
 */
