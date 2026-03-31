@@ -10,7 +10,8 @@ __global__ void shared_demo(int *arr){
 	s_arr[id] = arr[id];
 	__syncthreads(); // this one ensures that the thread wait if the data is not loaded yet , support thread 3 is trying to access values that thread 5 is going to pour but its not yet there so you might get a garbage value , this is a way where you stop it before the value is really there , thats basically what syncing really as the name suggests
 
-	printf("thread %d reads %d from shared memory\n", id, s_arr[id]);
+//	printf("thread %d reads %d from shared memory\n", id, s_arr[id]);
+    printf("thread %d reads %d from shared memory\n", id, s_arr[N - 1 - id]);
 } 
 
 int main(){
